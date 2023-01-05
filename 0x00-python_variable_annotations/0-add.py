@@ -5,6 +5,6 @@ add then together.
 """
 
 
-def add(a: int, b: int) -> int:
+def add(a: float, b: float) -> float:
     """adding function."""
     return a + b
