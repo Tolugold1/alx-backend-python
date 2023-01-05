@@ -13,7 +13,4 @@ def sum_mixed_list(mxd_lst: value) -> float:
     """
     function that returns their sum as a float.
     """
-    j: float = 0.0
-    for i in mxd_lst:
-        j += i
-    return j
+    return sum(mxd_lst)
