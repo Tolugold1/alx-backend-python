@@ -9,6 +9,3 @@ import math
 def floor(n: float) -> int:
     """return floor of a float number"""
     return math.floor(n)
-
-
-print(floor(2.98))
